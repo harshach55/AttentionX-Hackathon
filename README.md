@@ -12,7 +12,7 @@ AttentionX is a platform that allows users to upload long-form videos (like ment
 ---
 
 ## 📽️ Demo Video
-*[Insert your demo video Google Drive Link Here!]*
+[Watch the Demo Video on Google Drive](https://drive.google.com/file/d/1K4Jnro-8Bp6Efp30t7JsXU82tw8FkIZa/view?usp=sharing)
 
 ---
 
