@@ -4,11 +4,14 @@ import os
 from moviepy.editor import VideoFileClip
 import tempfile
 
-st.set_page_config(page_title="AttentionX", page_icon="✨", layout="centered")
+st.set_page_config(page_title="AttentionX", layout="centered")
 
 st.markdown(
     """
     <style>
+    #MainMenu {visibility: hidden;}
+    header {visibility: hidden;}
+    div[data-testid="stToolbar"] {visibility: hidden;}
     .stApp {
         background-color: #0E1117;
         color: #FAFAFA;
