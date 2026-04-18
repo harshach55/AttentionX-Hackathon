@@ -66,8 +66,8 @@ if uploaded_file is not None:
             try:
                 clip = VideoFileClip(tfile.name)
                 
-                # Mock AI segment selection: Take the first 5-10 seconds
-                duration = min(clip.duration, 8)
+                # Mock AI segment selection: Extract up to the first 60 seconds of the video
+                duration = min(clip.duration, 60)
                 clip = clip.subclip(0, duration)
                 
                 # Crop to 9:16 vertical (centered smart-crop mock)
