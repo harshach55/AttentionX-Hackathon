@@ -29,7 +29,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.title("✨ AttentionX")
+st.title("AttentionX")
 st.subheader("Automated Content Repurposing Engine")
 st.markdown("Upload long-form mentorship, podcast, or lecture videos and let AI find the golden nuggets, smart-crop to 9:16 vertical, and get it ready for TikTok or Reels.")
 
